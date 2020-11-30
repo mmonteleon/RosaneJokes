@@ -1,0 +1,27 @@
+<html>
+    <head>
+      <title>{% block title %}  {% endblock %}</title>
+      <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="static/style.css">
+    </head>
+    <body>
+        {% block content %}{% endblock %}
+        <br>
+        <br>
+        <h2>Adjust the font size:</h2>
+        <button href="#" style="font-size: 20px" onclick="document.body.style.fontSize='xx-small';">TEENY</button><span></span>
+        <button href="#" style="font-size: 20px" onclick="document.body.style.fontSize='x-small';">SMALL</button> <span></span>
+        <button href="#" style="font-size: 20px" onclick="document.body.style.fontSize='medium';">MEDIUM</button><span></span>
+        <button href="#" style="font-size: 20px" onclick="document.body.style.fontSize='x-large';">BIG</button><span></span>
+        <button href="#" style="font-size: 20px" onclick="document.body.style.fontSize='xx-large';">HUGE</button><span></span>
+
+        <h2>Change the background:</h2>
+        <button href="#" style="font-size: 20px" onclick="document.body.style.backgroundColor = 'white';">WHITE</button><span></span>
+        <button href="#" style="font-size: 20px" onclick="document.body.style.backgroundColor = 'pink';">PINK</button><span></span>
+        <button href="#" style="font-size: 20px" onclick="document.body.style.backgroundColor = 'plum';">PURPLE</button><span></span>
+        <button href="#" style="font-size: 20px" onclick="document.body.style.backgroundColor = 'DeepSkyBlue';">BLUE</button><span></span>
+        <button href="#" style="font-size: 20px" onclick="document.body.style.backgroundColor = 'Gold';">YELLOW</button><span></span>
+        <button href="#" style="font-size: 20px" onclick="document.body.style.backgroundColor = 'orange';">ORANGE</button><span></span>
+        <button href="#" style="font-size: 20px" onclick="document.body.style.backgroundColor = 'lightgreen';">GREEN</button><span></span>
+      </body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+
+{% block title %}Rosane's Joke{% endblock %}
+{% block content %}
+<h1> Rosane's Joke: </h1>
+<h1>{{joke}}</h1>
+<br>
+<audio controls autoplay>
+    <source src="/static/output.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+<br>
+<h2><a href="/index">Search for another Rosane joke.</a></h2>
+{% endblock %}

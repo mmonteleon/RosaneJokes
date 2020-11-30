@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+
+{% block title %}Dad Joke Generator{% endblock %}
+{% block content %}
+<h1>Rosane's Joke Generator</h1>
+
+<br>
+<form method ="post" action="/dadjoke">
+    <label for="search"><h2>Search term: </h2></label>
+    <input type="text" name="search" style="font-size: 20px";/>
+    <input type="submit" value="Submit"/>
+</form>
+
+{% endblock %}
